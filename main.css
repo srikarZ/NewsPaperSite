@@ -1,14 +1,25 @@
 #navbar{
   background-color: grey;
-  word-spacing: 12px;
+  word-spacing: 11px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  transition: top 0.3s;
+  right:0;
 }
 
 #navbar a{
   font-size: 3vh;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
 
-#left{
-  float:left;
+#navbar a:hover {
+  background-color: #ddd;
+  color:black;
 }
 
 #right{
