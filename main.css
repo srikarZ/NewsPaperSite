@@ -41,5 +41,16 @@
 
 #Pictures-Grid img{
   border: 3px solid black;
-  
+}
+
+#footer{
+  background-color: grey;
+  width:101%;
+  left: 0;
+  padding: 11px;
+}
+
+#footer a{
+ padding: 12px;
+ text-decoration:none;
 }
